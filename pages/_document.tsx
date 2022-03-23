@@ -108,6 +108,16 @@ function MyDocument() {
           href="/images/apple_splash_640.png"
           sizes="640x1136"
         />
+
+        {/* https://www.freecodecamp.org/news/how-to-use-sass-with-css-modules-in-next-js/ */}
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        />
       </Head>
       <body>
         <Main />
